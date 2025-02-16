@@ -1,0 +1,14 @@
+{
+	"name": "MayQOL",
+	"creator": "May",
+	"description": "Some QOL features",
+	"version": "0.1.2",
+	"entry": "index.js",
+	"requires": [
+		"Vigilance",
+		"PogData",
+		"BloomCore",
+		"requestV2",
+		"RenderLib"
+	]
+}
