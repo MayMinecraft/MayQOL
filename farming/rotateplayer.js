@@ -1,5 +1,6 @@
 /// <reference types="../../CTAutocomplete" />
 
+
 register("command", (yaw, pitch) => {
     handleRotatePlayer(yaw, pitch);
 }).setName("setyaw");

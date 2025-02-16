@@ -18,6 +18,7 @@ import './misc/debug'
 import './misc/search'
 import './misc/chat'
 import './misc/anvil'
+import './misc/player'
 import './utils/utils'
 
 register('command', () => {

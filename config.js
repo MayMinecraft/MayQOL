@@ -25,47 +25,6 @@ class Config {
     fpsGui = new Gui();
     tpsGui = new Gui();
     hudGui = new Gui();
-    
-    @SwitchProperty({
-        name: "Hide Blaze Particles",
-        description: "Hides the annoying smoke surrounding blazes.",
-        category: "Blaze Slayer",
-        subcategory: "Particles"
-    })
-    hideBlazeParticles = false
-
-    @SwitchProperty({
-        name: "Hide Fireball Particles",
-        description: "Hides the annoying smoke that comes from blaze fireballs.",
-        category: "Blaze Slayer",
-        subcategory: "Particles"
-    })
-    hideBallParticles = false
-
-    @SwitchProperty({
-        name: "Minimalist Blazes",
-        description: "Makes blazes look much simpler and cooler.",
-        category: "Blaze Slayer",
-        subcategory: "Render"
-    })
-    minimalBlazes = false
-
-    @SwitchProperty({
-        name: "Hide Fireballs",
-        description: "Hides Blaze fireballs.",
-        category: "Blaze Slayer",
-        subcategory: "Render"
-    })
-    hideBalls = false
-
-    @SwitchProperty({
-        name: "No Fire",
-        description: "Hides First Person Fire (Requires Patcher)",
-        category: "Blaze Slayer",
-        subcategory: "Render"
-    })
-    noFire = false
-
 
     // --- General ---
     @SwitchProperty({
@@ -261,6 +220,46 @@ class Config {
         subcategory: 'Crystal Hollows'
     })
     enterthecrystalhollows = false;
+
+    @SwitchProperty({
+        name: 'Automaton ESP',
+        description: 'ESP for Automatons',
+        category: 'Mining',
+        subcategory: 'Crystal Hollows'
+    })
+    crystalHollowsAutomatonESP = false;
+
+    @SwitchProperty({
+        name: 'Goblin ESP',
+        description: 'ESP for Goblin',
+        category: 'Mining',
+        subcategory: 'Crystal Hollows'
+    })
+    crystalHollowsGoblinESP = false;
+
+    @SwitchProperty({
+        name: 'Team Treasurite ESP',
+        description: 'ESP for Team Treasurite',
+        category: 'Mining',
+        subcategory: 'Crystal Hollows'
+    })
+    crystalHollowsTeamTreasuriteESP = false;
+
+    @SwitchProperty({
+        name: 'Sludge ESP',
+        description: 'ESP for Sludge',
+        category: 'Mining',
+        subcategory: 'Crystal Hollows'
+    })
+    crystalHollowsSludgeESP = false;
+
+    @SwitchProperty({
+        name: 'Yog ESP',
+        description: 'ESP for Yog',
+        category: 'Mining',
+        subcategory: 'Crystal Hollows'
+    })
+    crystalHollowsYogESP = false;
 
     @SwitchProperty({
         name: 'Jungle Temple Cheese',
@@ -491,7 +490,6 @@ class Config {
         this.addDependency("Announce Melody Text", "Announce Melody")
         this.addDependency("Exclude Own Death", "Death Hater")
         this.addDependency("Death Message Text", "Death Hater")
-        this.setCategoryDescription("Blaze Slayer", "Some QOL Features for the new Blaze Slayer.")
     }
 
 }

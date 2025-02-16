@@ -1,6 +1,7 @@
 /// <reference types="../../CTAutocomplete" />
 import config from '../config'
 import { registerWhen } from '../../BloomCore/utils/Utils'
+import { getArea } from '../utils/utils';
 
 registerWhen(register("renderEntity", (entity) => {
     const swap = (n) => {
@@ -23,4 +24,4 @@ registerWhen(register("renderEntity", (entity) => {
             }
         }
     }
-}), () => config.dojoHelperAutoDicipline);
+}), () => config.dojoHelperAutoDicipline && getArea().includes("Crimson Isle"));
