@@ -58,6 +58,6 @@ Use `/mq` or `/mayqol` to access MayQOL’s settings.
 - Some features may be subject to Hypixel's rules; use at your own risk.  
 - Regular updates will be provided to enhance functionality and fix issues.  
 
-## 🛠️ Credits  
+## 🛠️ Developer  
 
-Developed by May contributors.
+Developed by May.
