@@ -1,7 +1,3 @@
-Here's a README for your Skyblock CT module:
-
----
-
 # MayQOL - Skyblock CT Module  
 
 MayQOL is a feature-rich ChatTriggers (CT) module designed to enhance the Hypixel Skyblock experience by providing useful utilities for Dungeons, Mining, Farming, the Crimson Isle, and more. It includes custom HUD elements, automation features, ESP enhancements, and various quality-of-life improvements.
@@ -49,13 +45,13 @@ MayQOL is a feature-rich ChatTriggers (CT) module designed to enhance the Hypixe
 1. **Install ChatTriggers**  
    - Download and install [ChatTriggers](https://www.chattriggers.com/).  
 2. **Download MayQOL**  
-   - Clone or download the repository and move it to your ChatTriggers modules folder.  
+   - Download the repository from the latest [release](https://github.com/MayMinecraft/MayQOL/releases) and move it to your ChatTriggers modules folder.  
 3. **Enable the Module**  
    - Run `/ct load` in-game to activate MayQOL.  
 
 ## 📜 Configuration  
 
-Use the in-game ChatTriggers settings menu to customize MayQOL’s features.  
+Use `/mq` or `/mayqol` to access MayQOL’s settings.  
 
 ## ❗ Notes  
 
@@ -64,8 +60,4 @@ Use the in-game ChatTriggers settings menu to customize MayQOL’s features.
 
 ## 🛠️ Credits  
 
-Developed by MayQOL contributors.  
-
----
-
-This README provides a clear, structured overview of your module, making it easier for users to understand and install. Let me know if you need any modifications! 🚀
+Developed by May contributors.
