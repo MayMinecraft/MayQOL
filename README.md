@@ -1,4 +1,4 @@
-# MayQOL - Skyblock CT Module  
+# MayQOL - Skyblock ChatTriggers Module  
 
 MayQOL is a feature-rich ChatTriggers (CT) module designed to enhance the Hypixel Skyblock experience by providing useful utilities for Dungeons, Mining, Farming, the Crimson Isle, and more. It includes custom HUD elements, automation features, ESP enhancements, and various quality-of-life improvements.
 
@@ -61,3 +61,5 @@ Use `/mq` or `/mayqol` to access MayQOL’s settings.
 ## 🛠️ Developer  
 
 Developed by May.
+
+
